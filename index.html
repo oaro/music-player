@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pridi:wght@200;300;400;500;600;700&display=swap" 
+    rel="stylesheet"/>
+</head>
+<body>
+    <div class="container">
+        <div class="player">
+            <div class="player-top">
+                <button class="player-btn" type="button">
+                    <i class="fa-solid fa-arrow-left"></i>
+                </button>
+                <span>Music App</span>
+                <button class="player-btn" type="button">
+                    <i class="fa fa-solid fa-ellipsis"></i>
+                </button>
+            </div>
+            <div class="player-body">
+                <div class="current-song">
+                    <div class="cover">
+                        <span>BeCorbal</span>
+                        <span>Town</span>
+                    </div>
+                </div>
+            </div>
+            <div class="song-info">
+                <div class="song-details">
+                    <span class="song-name">Town</span>
+                    <span class="song-artist">BeCorbal</span>
+                </div>
+                <i class="fa-solid fa-heart"></i>
+            </div>
+            <div class="sond-duration">
+                <div class="song-time">
+                    <div class="song-progress">
+                        <audio src="music/BeCorbal - Town.mp3" class="audio"></audio>
+                    </div>
+                </div>
+                <div class="time">
+                    <span>0:00</span>
+                    <span>0:00</span>
+                </div>
+            </div>
+            <div class="controls">
+                <button class="player-btn shuffle" type="button">
+                    <i class="fa fa-solid fa-shuffle"></i>
+                </button>
+                <button class="player-btn prev-btn" type="button">
+                    <i class="fa fa-solid fa-backward"></i>
+                </button>
+                <button class="player-btn play-pause" type="button">
+                    <i class='fas fa-play'></i>
+                </button>
+                <button class="player-btn next-btn" type="button">
+                    <i class='fa-solid fa-forward'></i>
+                </button>
+                <button class="player-btn" type="button">
+                    <i class="fa fa-solid fa-repeat"></i>
+                </button>
+            </div>
+            <div class="player-footer">
+                <i class="fa-solid fa-music"></i>
+                <span>Listen to Music</span>
+                <i class="fa-solid fa-list"></i>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
